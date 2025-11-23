@@ -4,7 +4,6 @@ Consider a discrete memoryless source with symbols and statistics {0.125, 0.0625
 Apply the Huffman and Shannon-Fano to this source. 
 Show that by drawing the tree diagram, and 
 Calculate the average code word length, entropy, variance, redundancy, and efficiency.
-
 # Program:
 ```
 import numpy as np
@@ -46,14 +45,11 @@ print(f"Efficiency is : {eff}")
 print(f"Redudancy is : {red}")
 print(f"Variance is : {var}")
 ```
-
 # Calculation:
 ![WhatsApp Image 2025-10-03 at 20 38 39_6dea1687](https://github.com/user-attachments/assets/472977e7-1944-4a8c-a476-14043832cd4d)
 ![WhatsApp Image 2025-10-03 at 20 38 40_59c7fe8a](https://github.com/user-attachments/assets/928ae91e-54ca-46bb-b729-d9f3f4a98342)
 ![WhatsApp Image 2025-10-03 at 20 38 40_0857ea4e](https://github.com/user-attachments/assets/5d8e96b1-afce-4a12-8687-d9d18df0dab8)
-
 # Output
 <img width="324" height="144" alt="image" src="https://github.com/user-attachments/assets/073bee88-8cd4-423c-825e-335d0f174093" />
-
 # Results:
 Hence the average code word length, entropy, variance, redundancy, and efficiency are found for {0.55,0.15,0.15,0.1,0.05} usinf huffman
